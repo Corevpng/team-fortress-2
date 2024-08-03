@@ -1,0 +1,17 @@
+{
+  "name": "tf2",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@discordjs/rest": "^2.3.0",
+    "discord-api-types": "^0.37.93",
+    "discord.js": "^14.15.3"
+  }
+}

@@ -1,0 +1,178 @@
+{
+  "token": "",
+  "clientId": "",
+  "guildId": "",
+  "classData": {
+    "scout": {
+      "name": "Scout",
+      "abilities": "Hızlı hareket, çift zıplama",
+      "weapons": "Scattergun, Pistol, Bat",
+      "strategies": "Hızlı saldırılar, keşif"
+    },
+    "soldier": {
+      "name": "Soldier",
+      "abilities": "Yüksek hasar, roket atlayışı",
+      "weapons": "Rocket Launcher, Shotgun, Shovel",
+      "strategies": "Savunma, ağır hasar"
+    },
+    "pyro": {
+      "name": "Pyro",
+      "abilities": "Alev püskürtme, hava püskürtme",
+      "weapons": "Flame Thrower, Shotgun, Fire Axe",
+      "strategies": "Yakın dövüş, düşman savunmalarını kırma"
+    },
+    "demoman": {
+      "name": "Demoman",
+      "abilities": "Patlayıcılar, yapışkan bombalar",
+      "weapons": "Grenade Launcher, Stickybomb Launcher, Bottle",
+      "strategies": "Alan kontrolü, düşman yapılarını yok etme"
+    },
+    "heavy": {
+      "name": "Heavy",
+      "abilities": "Yüksek sağlık, ağır silahlar",
+      "weapons": "Minigun, Shotgun, Fists",
+      "strategies": "Savunma, ön cephe saldırıları"
+    },
+    "engineer": {
+      "name": "Engineer",
+      "abilities": "Yapılar inşa etme, onarım",
+      "weapons": "Shotgun, Pistol, Wrench",
+      "strategies": "Savunma, destek"
+    },
+    "medic": {
+      "name": "Medic",
+      "abilities": "Şifa, ÜberCharge",
+      "weapons": "Syringe Gun, Medi Gun, Bonesaw",
+      "strategies": "Destek, takımın hayatta kalmasını sağlama"
+    },
+    "sniper": {
+      "name": "Sniper",
+      "abilities": "Uzun menzilli saldırılar",
+      "weapons": "Sniper Rifle, SMG, Kukri",
+      "strategies": "Düşmanları uzaktan yok etme"
+    },
+    "spy": {
+      "name": "Spy",
+      "abilities": "Kamuflaj, düşman kılığına girme",
+      "weapons": "Revolver, Knife, Sapper",
+      "strategies": "Sızma, düşman yapısını sabote etme"
+    }
+  },
+  "gameModes": {
+    "capturetheflag": {
+      "name": "Bayrak Kapmaca",
+      "description": "Bu modda, iki takım birbirlerinin üslerinden bayrak çalarak kendi üslerine getirir.",
+      "strategies": "Savunmanızı güçlendirin ve hızla bayrağı ele geçirin. Scoutlar bayrak taşımak için idealdir."
+    },
+    "controlpoint": {
+      "name": "Kontrol Noktası",
+      "description": "Takımlar belirli kontrol noktalarını ele geçirir ve savunur.",
+      "strategies": "Koordineli saldırılar ve savunma çok önemlidir. Heavy ve Medic gibi karakterler burada parlayabilir."
+    },
+    "payload": {
+      "name": "Yük Arabası",
+      "description": "Bir takım yük arabasını belirli bir noktaya itmeye çalışırken diğer takım bunu engellemeye çalışır.",
+      "strategies": "Saldırgan takım olarak, sürekli baskı uygulamalı ve arabayı ilerletmelisiniz. Savunmada ise engelleyici yapılar kurmak önemlidir."
+    },
+    "kingofthehill": {
+      "name": "Tepenin Kralı",
+      "description": "Takımlar belirli bir tepeyi kontrol etmek için savaşır ve kontrol süresi dolana kadar tutmaya çalışır.",
+      "strategies": "Hızlı ve sürekli baskı ile tepeyi ele geçirip koruyun. Sniperlar ve Heavyler burada oldukça etkilidir."
+    },
+    "arena": {
+      "name": "Arena",
+      "description": "Takımların birbirlerini yok etmeye çalıştığı bir mod. Yeniden doğma yok.",
+      "strategies": "Hayatta kalmak için takım çalışması çok önemli. Sağlık paketlerini ve takım arkadaşlarınızı koruyun."
+    },
+    "mannpower": {
+      "name": "Mannpower",
+      "description": "Bu modda, güçlendirmeler ve özel yetenekler kullanarak savaşılır.",
+      "strategies": "Güçlendirmeleri toplayarak düşmanlarınıza üstünlük kurun. Hız ve yetenek kullanımı çok önemlidir."
+    },
+    "pass_time": {
+      "name": "Pass Time",
+      "description": "Futbol benzeri bir oyun modu. Topu alıp rakip kaleye gol atmaya çalışın.",
+      "strategies": "Takım oyunu ve hızlı paslaşmalar önemlidir. Scout ve Soldier gibi hızlı karakterler idealdir."
+    },
+    "player_destruction": {
+      "name": "Oyuncu Yıkımı",
+      "description": "Rakip oyuncuları yok ederek puan kazanın.",
+      "strategies": "Rakiplerinizi hızla yok edin ve puanları toplayın. Herkes hedefte olacağı için dikkatli olun."
+    },
+    "special_delivery": {
+      "name": "Özel Teslimat",
+      "description": "Bir takım özel bir yükü belirli bir noktaya taşırken, diğer takım bunu engellemeye çalışır.",
+      "strategies": "Koordineli saldırılar ve savunma çok önemlidir. Hızlı hareket etmek ve iyi savunma yapmak gereklidir."
+    }
+  },
+  "memTemplates": [
+    "Scout'un koşarak geldiği ve 'Need a dispenser here!' dediği bir sahne düşünün.",
+    "Heavy'nin sandviç yediği anı düşünün.",
+    "Engineer'in 'Nope' dediği sahneyi hayal edin.",
+    "Spy'in 'I never really was on your side.' dediği anı düşünün.",
+    "Medic'in 'Is there a point to your lives?' dediği sahneyi hayal edin.",
+    "Pyro'nun 'Mph mph mph!' dediği sahneyi düşünün.",
+    "Demoman'ın 'Ka-boom!' dediği anı hayal edin.",
+    "Sniper'ın 'Boom, headshot!' dediği sahneyi düşünün."
+  ],
+  "miniGames": {
+    "quiz": {
+      "questions": [
+        {
+          "question": "Team Fortress 2'de kaç sınıf vardır?",
+          "options": "a) 8\nb) 9\nc) 10",
+          "answer": "b"
+        },
+        {
+          "question": "Hangi sınıf roket atlayışı yapabilir?",
+          "options": "a) Scout\nb) Soldier\nc) Demoman",
+          "answer": "b"
+        },
+        {
+          "question": "Hangi sınıf kamuflaj yeteneğine sahiptir?",
+          "options": "a) Sniper\nb) Spy\nc) Pyro",
+          "answer": "b"
+        },
+        {
+          "question": "Hangi sınıf en yüksek sağlık puanına sahiptir?",
+          "options": "a) Scout\nb) Heavy\nc) Medic",
+          "answer": "b"
+        },
+        {
+          "question": "Hangi oyun modu Bayrak Kapmaca olarak bilinir?",
+          "options": "a) Payload\nb) Capture the Flag\nc) King of the Hill",
+          "answer": "b"
+        }
+      ]
+    },
+    "trivia": {
+      "questions": [
+        {
+          "question": "TF2'nin çıkış yılı nedir?",
+          "options": "a) 2004\nb) 2007\nc) 2010",
+          "answer": "b"
+        },
+        {
+          "question": "Medic'in özel yeteneği nedir?",
+          "options": "a) ÜberCharge\nb) Hızlı koşma\nc) Kamuflaj",
+          "answer": "a"
+        },
+        {
+          "question": "Hangi sınıf ağır silahlar kullanır?",
+          "options": "a) Heavy\nb) Scout\nc) Engineer",
+          "answer": "a"
+        },
+        {
+          "question": "Spy hangi yeteneğe sahiptir?",
+          "options": "a) Çift zıplama\nb) Roket atlayışı\nc) Kamuflaj",
+          "answer": "c"
+        },
+        {
+          "question": "Sniper'ın ana silahı nedir?",
+          "options": "a) Shotgun\nb) Sniper Rifle\nc) Pistol",
+          "answer": "b"
+        }
+      ]
+    }
+  }
+}
